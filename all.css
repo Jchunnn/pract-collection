@@ -47,7 +47,7 @@ table {
 /*css reset*/
 
 /* 標籤基本樣式 */
-*,*::before,*::after{
+*,*::after,*::before{
 	box-sizing: border-box;
 }
 /* 圖片置中 */
@@ -296,6 +296,9 @@ h6{
 .mr-24{
 	margin-right: 24px;
 }
+.mr-16{
+	margin-right: 16px;
+}
 .mr-12{
 	margin-right: 12px;
 }
@@ -324,6 +327,12 @@ h6{
 .jcc{
 	justify-content: center;
 }
+.aife{
+	align-items: flex-end;
+}
+.jcfe{
+	justify-content: flex-end;
+}
 /* 容器width 樣式*/
 .container{
 	max-width: 1296px;
@@ -333,6 +342,26 @@ h6{
 	max-width: 636px;
 	margin: 0 auto;
 	border: #212529 1px solid;
+}
+.collection-list{
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+}
+.main-pic{
+	width: 18%;
+}
+.aside-price{
+	display: flex;
+	
+}
+.main-black{
+	flex: 1;
+}
+/* img */
+.main-pic img{
+	max-width: 100%;
+	
 }
 /* 小框框顏色 */
 .bg-primary-100{
